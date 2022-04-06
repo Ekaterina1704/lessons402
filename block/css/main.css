@@ -78,35 +78,9 @@
     float: right;
     top: -200px;
     left: -26px;
-    height: 210px
+    height: 320px
     }
-    .shadow-btn{
-      position: relative;
-      padding: 10px 40px;
-      margin: 0 5px;
-      top: 28px;
-      background:#fff9ef;
-      font-family: 'Montserrat Alternates', sans-serif;
-      color:#110230;
-      text-transform: lowercase;
-      border: 2px solid #110230;
-      font-size: 16px;
-      font-weight: 600;
-      cursor: pointer;
-    }
-    .btn-inner{
-      display: flex;
-      align-items: center;
-    }
-    .shadow{
-      position: absolute;
-      top: 9px;
-      left: 5px;
-      width: 100%;
-      height: 100%;
-      background: #98dfd7;
-      z-index: -1;
-    }
+
     .block2 {
     width: 1000px;
     border:3px solid black;
@@ -117,7 +91,7 @@
     float: right;
     margin: 40px;
     left: 15px;
-    height: 280px
+    height: 350px
     }
 
     .bl{
@@ -139,10 +113,42 @@
     border: 4px solid #030303;
     border-radius: 15px;
     color: black;
-    margin-top: 13.4%;
+    margin-top: 40%;
     width: 300px;
     margin-left: 60px;
     text-align:center;
     }
 
 
+
+article {
+    border: 1px solid #333;
+    border-radius: 3px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+article img {
+    max-width: 200px;
+    margin-right: 15px;
+}
+
+.post-body {
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.post-meta {
+    display: flex;
+    font-size: 14px;
+}
+
+.post-meta > * {
+    margin: 0;
+    margin-right: 15px;
+}
+
+.post-meta span {
+    font-style: italic;
+}
